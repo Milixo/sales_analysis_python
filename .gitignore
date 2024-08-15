@@ -1,0 +1,38 @@
+# Python datoteke
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg-info/
+dist/
+build/
+
+# Datoteke specifične za operativni sustav
+.DS_Store
+Thumbs.db
+
+# Virtualne okoline
+venv/
+env/
+.venv/
+.env/
+
+# Konfiguracijske datoteke PyCharm-a
+.idea/
+
+# VSCode postavke
+.vscode/
+
+# Logovi
+*.log
+
+# CSV datoteka (ako ne želite da se verzionira)
+sales_data.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Bilo kakve privremene datoteke
+*.tmp
+*.temp
